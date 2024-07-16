@@ -1,0 +1,245 @@
+svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    fill: azure;
+}
+.navbar-toggler-icon{
+    padding-left: 500px;
+}
+   
+@media (max-width:990px){
+    .navbar-brand{
+        width: 15%;
+        height: 10%;
+    }
+    .navbar-toggler-icon{
+        width: 1px;
+        height: 1px;
+    }
+}
+/*image-1*/
+.image{
+   background-image: url(photos/1.avif);
+    background-size:cover;
+    background-position: center;
+   width: 100px;
+   height: 600px;
+}
+.pa1{
+    color: white;
+    font-weight: 300;
+    font-size: 1.2em;
+    padding-top: 8em;
+    padding-left: 3em;
+    
+}
+.pa2{
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+    padding-left: 1.2em;
+    border-top: 8em;
+}
+.but1{
+    margin-left: 4em;
+    border-top: 8em;
+    margin-left: 4em;
+}
+/*image-2*/
+.image2{
+    background-image: url(photos/2.avif);
+     background-size:cover;
+     background-position: center;
+    width: 100px;
+    height: 600px;
+ }
+ .pb1{
+     color: white;
+     font-weight: 400;
+     font-size: 1.5em;
+     padding-top: 13em;
+     padding-left: 2.5em;
+ }
+ .pb2{
+     color: white;
+     font-weight: 600;
+     font-size: 3em;
+     padding-left: 1.2em;
+     border-top: 5em;
+ }
+ .but2{
+     margin-left: 4em;
+ }
+ /*image-3*/
+.image3{
+    background-image: url(photos/3.avif);
+     background-size:cover;
+     background-position: center;
+    width: 100px;
+    height: 600px;
+ }
+ .pc1{
+     color: white;
+     font-weight: 300;
+     font-size: 1.6em;
+     padding-top: 9em;
+     padding-left: 2.3em;
+ }
+ .pc2{
+     color: white;
+     font-weight: 600;
+     font-size: 3em;
+     padding-left: 1.2em;
+     border-top: 5em;
+ }
+ .but3{
+     margin-left: 4em;
+ }
+ /*image-4*/
+.image4{
+    background-image: url(photos/4.avif);
+     background-size:cover;
+     background-position: center;
+    width: 100px;
+    height: 600px;
+ }
+ .pd1{
+     color: white;
+     font-weight: 600;
+     font-size: 2em;
+     padding-top: 5em;
+     padding-left: 2em;
+ }
+ .pd2{
+     color: white;
+     font-weight: 600;
+     font-size: 3em;
+     padding-left: 1.2em;
+     border-top: 5em;
+ }
+ .but4{
+     margin-left: 4em;
+ }
+ /*image-5*/
+.image5{
+    background-image: url(photos/5.avif);
+     background-size:cover;
+     background-position: center;
+    width: 100px;
+    height: 600px;
+ }
+ .pe1{
+     color: white;
+     font-weight: 700;
+     font-size: 2em;
+     padding-top: 5em;
+     padding-left: 2em;
+ }
+ .pe2{
+     color: white;
+     font-weight: 700;
+     font-size: 3em;
+     padding-left: 1.2em;
+     border-top: 5em;
+ }
+ .but5{
+    margin-left: 4em;   
+ }
+ /*footer*/
+ .footer{
+    background-color:black;
+    width: 100%;
+    height: 100px;
+ }
+ .footer ul li{
+    color: white;
+    display: flex;
+ display: inline-flex;
+ padding-inline: 2em;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: 600;
+ } 
+ /*footer-end*/
+@media (max-width:900px){
+    .pd1{
+    position: relative;
+    top: 150px;
+    font-size: 25px;
+    }
+    .pd2{
+        position: relative;
+        top: 150px;
+        font-size: 25px;
+        }
+        .but4{
+            position: relative;
+            top: 150px;         
+            }
+} 
+@media (max-width:900px){
+    .pe1{
+    position: relative;
+    top: 150px;
+    font-size: 25px;
+    }
+    .pe2{
+        position: relative;
+        top: 150px;
+        font-size: 25px;
+        }
+        .but5{
+            position: relative;
+            top: 150px;
+            }
+}
+@media (max-width:900px){
+    .pc1{
+    position: relative;
+    top: 150px;
+    font-size: 25px;
+    }
+    .pc2{
+        position: relative;
+        top: 150px;
+        font-size: 25px;
+        }
+        .but3{
+            position: relative;
+            top: 150px;
+
+            }
+} 
+@media (max-width:900px){
+    .pb1{
+    position: relative;
+    top: 100px;
+    font-size: 25px;
+    padding-left: 1.5em;
+    }
+    .pb2{
+        position: relative;
+        top: 100px;
+        font-size: 25px;
+        }
+        .but2{
+            position: relative;
+            top: 100px;
+            }
+} 
+@media (max-width:900px){
+    .pa1{ 
+    font-size: 25px;
+    padding-left: 2em;
+   
+    }
+    .pa2{      
+        font-size: 25px;
+        padding-left: 2em;
+        }
+        .but1{
+            position: relative;
+            top: 30px;
+           
+            }
+} 
